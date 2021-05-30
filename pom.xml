@@ -19,7 +19,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -50,6 +50,9 @@
 	<properties>
 		<java.version>15</java.version>
 	    <start-class>com.bcopstein.ctrlcorredor_v8_JPA.CtrlcorredorV7Application</start-class>
+  		<sonar.projectKey>bcopstein_VV_CtrlCorridasTSC</sonar.projectKey>
+  		<sonar.organization>bcopstein</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 </project>

@@ -1,0 +1,2 @@
+export SONAR_TOKEN=c28010963e1999a26de41edbb305e6957870fe71
+mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar

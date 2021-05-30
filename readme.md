@@ -1,3 +1,9 @@
+Para obter as metricas com o Sonnar Cloud utilize o "script" mvnsc
+- Ele define uma variável de ambiente antes da execução
+- Ele dispara o plugin do Sonnar Cloud que está no POM
+    - Nas properties do POM esta indicado o repositório do Git e o endereço do Sonnar Cloud
+
+
 Bloco <properties> precisa ser colocado depois das dependências do spring-boot serem declaradas.
 Tua class "Application" não contém um "main", quem tem isso é o spring, então ele precisa sobrescrever
 essa propriedade para ti.
