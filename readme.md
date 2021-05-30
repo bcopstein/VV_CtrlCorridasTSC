@@ -1,4 +1,5 @@
 Para obter as metricas com o Sonnar Cloud utilize o "script" mvnsc
+- Para rodar use: ./mvnsc
 - Ele define uma variável de ambiente antes da execução
 - Ele dispara o plugin do Sonnar Cloud que está no POM
     - Nas properties do POM esta indicado o repositório do Git e o endereço do Sonnar Cloud
